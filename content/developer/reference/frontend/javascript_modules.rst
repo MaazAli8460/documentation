@@ -4,6 +4,8 @@
 Javascript Modules
 ==================
 
+
+
 Odoo supports three different kinds of javascript files:
 
 - :ref:`plain javascript files <frontend/modules/plain_js>` (no module system),
@@ -356,6 +358,7 @@ The `odoo.define` method is given three arguments:
   next section.
 
 If an error happens, it will be logged (in debug mode) in the console:
+
 
 * `Missing dependencies`:
   These modules do not appear in the page. It is possible that the JavaScript
